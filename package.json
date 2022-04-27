@@ -1,0 +1,19 @@
+{
+  "name": "index.js",
+  "version": "1.0.0",
+  "description": "introducción a backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fernanda-mr/Backend.git"
+  },
+  "author": "Maria Fernanda Moya Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fernanda-mr/Backend/issues"
+  },
+  "homepage": "https://github.com/Fernanda-mr/Backend#readme"
+}
