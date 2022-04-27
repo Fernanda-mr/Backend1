@@ -8,12 +8,12 @@ const port = 3000;
 const server = http.createServer((req, res) => {
     //el servidor respondera un codigo 200
     res.statusCode = 200;
-    //el servidor respondera un texto plano
-    res.setHeader('Content-Type', 'text/plain');
-    //el servidor respondera el mensaje hola mundo
-    res.end('Hola Mundo\n'); 
+    //el servidor respondera un texto plano html
+    res.setHeader('Content-Type', 'text/html');
+    //el servidor respondera el mensaje hola mundo usando html
+    res.end('<h1>Hola Mundo</h1>'); 
 });
 
 server.listen(port, hostname,() =>{
-    console.log ('el servidor se esta ejecutando en http://${hostname}:${port}/');
+    console.log (`el servidor se esta ejecutando en http://${hostname}:${port}/`);
 });
