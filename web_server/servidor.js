@@ -18,8 +18,8 @@ http.createServer(function (request, response){
         '.css':'text/css',
         '.png':'image/png',
         '.jpg':'image/jpg',
-        '.gif':'image/gif',
-    }
+        '.gif':'image/gif'
+    };
     //template de error 404
     //si existe un error manda el 404, si todo esta bien manda el 200 y un error 500 si es error del servidor 
     
