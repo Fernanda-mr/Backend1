@@ -23,6 +23,8 @@ http.createServer(function (request, response){
     //template de error 404
     //si existe un error manda el 404, si todo esta bien manda el 200 y un error 500 si es error del servidor 
     
+    contentType = mimeTypes[extname] || 'application/octet-stream';
+
     fs.readFileSync(filePath, function(error, content){
         if(error){
             if(error.code == 'ENOENT'){
